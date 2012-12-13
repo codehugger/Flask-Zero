@@ -16,6 +16,18 @@ How?
 
 You simply clone the project and remove the .git folder and start hacking away :)
 
+Example on how to get started:
+
+    $> git clone https://github.com/codehugger/Flask-Zero.git awesome_app
+    $> cd awesome_app
+    $> rm -rf .git
+
+Then to install requirements and run
+
+    $> pip install -r requirements.txt
+    $> ./manage.py seed_db
+    $> ./manage.py runserver
+
 
 What?
 -----
