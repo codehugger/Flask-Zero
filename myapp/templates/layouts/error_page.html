@@ -1,0 +1,18 @@
+{% extends "layouts/base.html" %}
+
+{% block stylesheets %}
+<style>
+    .errortitle {
+        color: #600;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="span12">
+        <h2 class="errortitle">{% block error_title %}{% endblock %}</h2>
+        <p class="errormessage">{% block error_message %}{% endblock %}</p>
+    </div>
+</div>
+{% endblock %}

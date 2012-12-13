@@ -24,7 +24,9 @@ pip-log.txt
 # Unit test / coverage reports
 .coverage
 .tox
+.noseids
 nosetests.xml
+__pycache__
 
 # Translations
 *.mo
@@ -33,3 +35,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Assets
+.webassets-cache
+static/**/dist

@@ -1,0 +1,34 @@
+/* Colors */
+@base: #663333;
+@complement1: spin(@base, 180);
+@complement2: darken(spin(@base, 180), 5%);
+@lighten1: lighten(@base, 15%);
+@lighten2: lighten(@base, 30%);
+@white: #FFFFFF;
+
+/* Rounded Corners */
+.border-radius (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+
+/* Box Shadow */
+.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {
+    -webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+    -moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+    box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+}
+
+/* Implementation */
+body {
+    background-color: @complement1;
+    padding-top: 50px;
+}
+.container {
+    padding: 20px;
+    background-color: @white;
+    .border-radius(20px);
+    .box-shadow(5px, 5px, 6px, 0.4);
+    border: 1px solid #999;
+}

@@ -1,0 +1,13 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<h2>Sign in</h2>
+<p>email: <strong>john.doe@example.com</strong></p>
+<p>pass: <strong>secret</strong></p>
+<form action="{{ url_for('signin', next=request.args.next) }}" method="post">
+    {{ form.csrf_token }}
+    {{ form.email.label}}{{ form.email }}<br/>
+    {{ form.password.label}}{{ form.password }}<br/>
+    <input type="submit" value="Sign in" class="btn">
+</form>
+{% endblock %}

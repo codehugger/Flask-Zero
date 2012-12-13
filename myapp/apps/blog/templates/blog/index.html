@@ -1,0 +1,19 @@
+{% extends "layouts/base.html" %}
+
+{% block javascripts %}
+    {% assets "js_blog" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+{% endblock %}
+
+{% block stylesheets %}
+    {% assets "css_blog" %}
+        <link rel="stylesheet" media="screen" href="{{ ASSET_URL }}">
+    {% endassets %}
+{% endblock %}
+
+{% block content %}
+    <h1>Blog App</h1>
+    <p>Welcome to the secure blog application.</p>
+    <p>Go back to <a href="{{ url_for('index') }}">home</a></p>
+{% endblock %}
