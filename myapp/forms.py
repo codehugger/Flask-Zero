@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-from flask.ext.wtf import (Form, TextField, PasswordField, HiddenField, Required)
+from flask_wtf import Form
+from wtforms import TextField, PasswordField, HiddenField
+from wtforms.validators import Required
 
 
 class SigninForm(Form):

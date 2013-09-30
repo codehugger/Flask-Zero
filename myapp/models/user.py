@@ -28,7 +28,7 @@ class User(db.Model, UserMixin):
         descriptor=property(_get_password, _set_password))
 
     def check_password(self, password):
-        if bcrypt.hashpw(password, self.password) == self.password:
+        if bcrypt.hashpw(password.encode('utf-8'), self.password.encode('utf-8')) == self.password:
             return True
         return False
 
