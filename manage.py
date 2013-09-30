@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 from flask.ext.script import Command, Option, Manager
+from flask.ext.assets import ManageAssets
 
 from myapp import config
 from myapp.main import app_factory
@@ -56,6 +57,7 @@ manager.add_command("create_db", CreateDB())
 manager.add_command("drop_db", DropDB())
 manager.add_command("seed_db", SeedDB())
 manager.add_command("clean", Clean())
+manager.add_command("assets", ManageAssets())
 
 
 if __name__ == "__main__":

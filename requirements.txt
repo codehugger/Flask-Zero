@@ -2,7 +2,7 @@ Flask==0.10.1
 Flask-Assets==0.8
 Flask-Login==0.2.7
 Flask-SQLAlchemy==1.0
-Flask-Script==0.6.2
+Flask-Script==0.5.3
 Flask-WTF==0.9.2
 Jinja2==2.7.1
 MarkupSafe==0.18
@@ -12,6 +12,7 @@ Werkzeug==0.9.4
 bcrypt==1.0.2
 cffi==0.7.2
 itsdangerous==0.23
+jsmin==2.0.4
 py-bcrypt==0.4
 pycparser==2.10
 pysqlite==2.6.3
