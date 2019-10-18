@@ -8,7 +8,7 @@ Jinja2==2.7.1
 MarkupSafe==0.18
 SQLAlchemy==0.8.2
 WTForms==1.0.5
-Werkzeug==0.9.4
+Werkzeug==0.15.3
 bcrypt==1.0.2
 cffi==0.7.2
 itsdangerous==0.23
