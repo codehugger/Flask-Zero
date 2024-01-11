@@ -2,11 +2,11 @@ repo_name: codehugger/Flask-Zero
 report_id: 936ef51a82790f58ff5ea6978c153e65
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:26:47+00:00'
+timestamp: '2024-01-11T12:12:42+00:00'
 requested_by: codehugger
 provider: github
 branch: master
-detected_tools_count: 5
+detected_tools_count: 21
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -67,3 +67,225 @@ tools:
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source_url: https://github.com/codehugger/Flask-Zero
   detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2012-12-13 23:51:46.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-01 20:14:29.000000000 Z
+- name: Flask-Assets
+  description: Asset management for Flask
+  package_url: https://pypi.org/project/Flask-Assets
+  version: '0.8'
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20683/default_ee2e2266c6dc259d918bffcdb647a7350011a46b.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-01 20:14:29.000000000 Z
+- name: Flask-Login
+  description: User session management for Flask
+  package_url: https://pypi.org/project/Flask-Login
+  version: 0.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20091/default_5d939a1a27846185eb6de438be4bf77b84b4ee87.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-01 20:14:29.000000000 Z
+- name: Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  package_url: https://pypi.org/project/Flask-SQLAlchemy
+  version: '1.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19941/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-01 20:14:29.000000000 Z
+- name: Flask-Script
+  description: Scripting support for Flask
+  package_url: https://pypi.org/project/Flask-Script
+  version: 0.5.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-01 20:14:29.000000000 Z
+- name: Flask-WTF
+  description: Simple integration of Flask and WTForms
+  package_url: https://pypi.org/project/Flask-WTF
+  version: 0.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20060/default_eed7014d799b4e750aea7c37ab970b4b62c0cf42.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-01 20:14:29.000000000 Z
+- name: MarkupSafe
+  description: Safely add untrusted strings to HTML/XML markup
+  package_url: https://pypi.org/project/MarkupSafe
+  version: '0.18'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19945/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2013-09-30 11:26:40.000000000 Z
+- name: WTForms
+  description: A flexible forms validation and rendering library for Python web development
+  package_url: https://pypi.org/project/WTForms
+  version: 1.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20615/default_7382161db21ae3cf11739d4242ed42a7278e7489.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2013-09-30 11:26:40.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 3.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-25 19:24:20.000000000 Z
+- name: bcrypt
+  description: Modern password hashing for your software and your servers
+  package_url: https://pypi.org/project/bcrypt
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2013-09-30 11:26:40.000000000 Z
+- name: cffi
+  description: Foreign Function Interface for Python calling C code
+  package_url: https://pypi.org/project/cffi
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2013-09-30 11:26:40.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: '0.23'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2013-09-30 11:26:40.000000000 Z
+- name: jsmin
+  description: JavaScript minifier
+  package_url: https://pypi.org/project/jsmin
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2013-09-30 11:55:12.000000000 Z
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  version: '2.10'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2013-09-30 11:26:40.000000000 Z
+- name: webassets
+  description: Media asset management for Python
+  package_url: https://pypi.org/project/webassets
+  version: '0.8'
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20475/default_800512522a1f8bb3ddeb015413c72f7409eb0719.png
+  detection_source_url: https://github.com/codehugger/Flask-Zero/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2012-12-13 23:51:46.000000000 Z
